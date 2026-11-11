@@ -148,7 +148,7 @@ const EPC = (() => {
     const go = () => {
       let page = location.hash.slice(1) || 'home';
       if (!pages[page]) page = 'home';
-      document.title = `${pages[page]} | Elite Performance Center`;
+      if (window.epcMeta) window.epcMeta(page); else document.title = `${pages[page]} | Elite Performance Center`;
       document.body.classList.remove('nav-open');
       render(page);
       wire();

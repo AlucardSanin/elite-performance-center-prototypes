@@ -1,0 +1,30 @@
+# Elite Performance Center
+
+> Indoor, air-conditioned baseball and softball training facility in Clovis, California. Batting lanes with pitching machines, private lessons, HitTrax swing data, memberships, and team rentals for players from Clovis and Fresno.
+
+Draft for launch: publish at the root of the final domain as /llms.txt and update the URLs below to the final page addresses.
+
+## Key facts
+
+- Address: 906 Barstow Ave, Suite A, Clovis, CA 93612
+- Phone: (559) 274-2130
+- Email: info@eliteperformancecenterca.com
+- Hours: Monday, Tuesday, Thursday, Friday 3 PM to 9 PM; Wednesday 2 PM to 9 PM; Saturday 11 AM to 4 PM; Sunday closed
+- Booking: https://eliteperformancecenterca.ezfacility.com/
+- Instagram: https://www.instagram.com/eliteperformancecenter_clovis/
+- Facebook: https://www.facebook.com/profile.php?id=61594280009550
+
+## Services and rates
+
+- Baseball and softball batting lanes with pitching machines: $40 per hour, up to four players, $10 per additional player
+- Single membership: $250 per month, one hour of hitting per day, subject to availability
+- Team membership: $600 per month, whole facility one day per week for two hours
+- HitTrax: $85 per person, $20 per additional person, up to four
+- Private one-on-one lessons: rates and coach availability on request
+- Team and group rentals: single lane up to the whole facility, up to six cages
+
+## Pages
+
+- [Home](https://www.eliteperformancecenterca.com/): overview, services, hours
+- [Pricing](https://www.eliteperformancecenterca.com/): rates and memberships
+- [Contact](https://www.eliteperformancecenterca.com/): location, hours, phone, email
