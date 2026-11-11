@@ -236,3 +236,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 }
 .l-page-hero:has(.epc-map){grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}
 @media(max-width:860px){.l-page-hero:has(.epc-map){grid-template-columns:1fr}}
+
+/* Social links */
+.epc-social{display:flex;gap:10px;margin-top:16px}
+.epc-social a{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1.5px solid currentColor;color:inherit;transition:background .2s,color .2s,transform .15s}
+.epc-social a:hover{transform:translateY(-2px)}
+.epc-social svg{width:20px;height:20px}
+.epc-social a{border-radius:8px}
+.epc-social a:hover{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+
+/* Floating contact dock accent */
+body{--epc-accent:var(--blue);--epc-accent-ink:var(--blue-ink)}

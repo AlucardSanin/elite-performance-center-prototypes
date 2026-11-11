@@ -156,6 +156,7 @@
           <div><dt>Phone</dt><dd><a href="${E.phone.href}">${E.phone.label}</a></dd></div>
           <div><dt>Email</dt><dd><a href="mailto:${E.email}">${E.email}</a></dd></div>
         </dl>
+        ${E.social}
       </div>
       ${E.map('l-map')}
     </section>
@@ -170,6 +171,7 @@
       <div>
         <img class="l-foot-logo" src="assets/logo.jpg" alt="Elite Performance Center">
         <p>Indoor baseball and softball training in Clovis, California.</p>
+        ${E.social}
       </div>
       <nav aria-label="Footer">${Object.entries(E.pages).map(([k, v]) => `<a href="#${k}">${v}</a>`).join('')}</nav>
       <div>

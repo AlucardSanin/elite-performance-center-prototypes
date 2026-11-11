@@ -72,6 +72,8 @@ const EPC = (() => {
   const mapSrc = 'https://maps.google.com/maps?q=906%20Barstow%20Ave%20Suite%20A%2C%20Clovis%2C%20CA%2093612&z=15&output=embed';
   const map = (cls = '') => `<div class="epc-map ${cls}"><iframe src="${mapSrc}" title="Map showing Elite Performance Center at 906 Barstow Ave, Clovis" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><svg class="epc-pin" viewBox="0 0 40 44" aria-hidden="true"><path d="M2 2 H38 V22 L20 42 L2 22 Z"/></svg></div>`;
 
+  const social = '<div class="epc-social"><a href="https://www.instagram.com/eliteperformancecenter_clovis/" target="_blank" rel="noopener" aria-label="Elite Performance Center on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a><a href="https://www.facebook.com/profile.php?id=61594280009550" target="_blank" rel="noopener" aria-label="Elite Performance Center on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3.2h-3V8.3c0-.9.3-1.6 1.6-1.6h1.6V3.9c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.5H7.9v3.2h2.6V21h3z"/></svg></a></div>';
+
   const img = (file, alt = 'Baseball and softball training at Elite Performance Center in Clovis', cls = '') => `<img class="${cls}" src="assets/${file}.jpg" alt="${alt}">`;
 
   function initTheme(defaultDark) {
@@ -155,5 +157,5 @@ const EPC = (() => {
     go();
   }
 
-  return { booking, email, phone, address, maps, pages, hours, clock, span, services, detail, prices, faq, logoFilter, today, map, wire, ext, img, initTheme, reviewBar, motion, chooser, router };
+  return { booking, email, phone, address, maps, pages, hours, clock, span, services, detail, prices, faq, logoFilter, today, map, social, wire, ext, img, initTheme, reviewBar, motion, chooser, router };
 })();

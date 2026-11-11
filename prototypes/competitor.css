@@ -216,3 +216,15 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
   *,*:before,*:after{transition:none!important;animation:none!important}
   .c-field-art .runner{stroke-dashoffset:0}
 }
+
+/* Social links */
+.epc-social{display:flex;gap:10px;margin-top:16px}
+.epc-social a{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1.5px solid currentColor;color:inherit;transition:background .2s,color .2s,transform .15s}
+.epc-social a:hover{transform:translateY(-2px)}
+.epc-social svg{width:20px;height:20px}
+.epc-social a:hover{background:var(--red);border-color:var(--red);color:#fff}
+.c-footer .epc-social{margin:0}
+.c-follow{margin:26px 0 0;font-size:15px}
+
+/* Floating contact dock accent */
+body{--epc-accent:var(--red);--epc-accent-ink:var(--red-ink)}

@@ -144,6 +144,8 @@
             <dt>Email</dt><dd><a href="mailto:${E.email}">${E.email}</a></dd>
           </dl>
           <div class="c-actions">${btn('Get directions', E.maps)}${btn('Open the scheduler', E.booking, 'c-btn c-btn-ghost')}</div>
+          <p class="c-follow">See what's happening at the facility on Instagram and Facebook.</p>
+          ${E.social}
         </div>
         ${E.map('c-map')}
       </div>
@@ -154,6 +156,7 @@
       <div class="c-wrap c-footer-in">
         <img class="c-foot-logo" src="assets/logo.jpg" alt="Elite Performance Center">
         <p>Indoor baseball and softball training in Clovis, California.</p>
+        ${E.social}
         <p class="c-copy">© ${new Date().getFullYear()} Elite Performance Center. Website concept for client review.</p>
       </div>
     </footer>`;
