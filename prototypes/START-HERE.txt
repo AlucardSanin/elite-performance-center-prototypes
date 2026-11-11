@@ -1,0 +1,12 @@
+ELITE PERFORMANCE CENTER — WEBSITE REVIEW
+
+Unzip this folder and open index.html in a current web browser. Keep the files and assets folder together.
+The Clubhouse is the main proposal. Two alternative directions are available from the collection page: The Competitor (an interactive baseball diamond and a scoreboard of opening hours) and The Performance Lab (a strike-zone photo frame and a weekly hours chart).
+
+Explore light and dark modes, the home-plate slideshow, the background film, and the five services. Hover or use the keyboard on desktop; tap on mobile. Motion can be paused.
+
+Booking links open the existing EZFacility scheduler. Email and phone links use your device's applications. This preview does not collect payments or submit bookings itself. Internet access loads optional web fonts and external destinations.
+
+Before launch, please confirm the preferred office phone number, current prices and memberships, HitTrax session length, business hours, and coaching availability. The current site lists conflicting office phone numbers.
+
+This is a design review package, not a replacement for your live website.
